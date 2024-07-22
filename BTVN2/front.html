@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Đơn Giản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Trang Đăng Nhập -->
+    <div id="login-container" class="container">
+        <form id="login-form" class="login-form">
+            <h2>Đăng nhập</h2>
+            <button type="button" class="social-login google-login">Đăng nhập với Google</button>
+            <button type="button" class="social-login facebook-login">Đăng nhập với Facebook</button>
+            <p>Hoặc, điền các thông tin dưới đây:</p>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Mật khẩu" required>
+            <button type="submit">Đăng nhập</button>
+        </form>
+    </div>
+
+    <!-- Trang Hiển Thị Sản Phẩm -->
+    <div id="product-container" class="container" style="display: none;">
+        <div class="product-card">
+            <img src="https://static.kfcvietnam.com.vn/images/category/lg/COMBO%20NHOM.jpg?v=g2vYkg" alt="Sản phẩm">
+            <h3>Combo gà viên + khoai + nước ngọt</h3>
+            <p>16 Chiến Thắng, P. Văn Quán, Hà Đông, Hà Nội</p>
+            <p class="status">Mở cửa</p>
+            <p class="price"><del>43.000₫</del> 32.250₫</p>
+            <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
